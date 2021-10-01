@@ -12,9 +12,13 @@
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var name = this.textBox1.Text;
+            // With .Net Standard
+            var name = Standard.StandardLibrary.StandardMethod(this.textBox1.Text);
 
-            MessageBox.Show($"Hello, {name}!");
+            // Without .Net Standard
+            //var name = $"Hello, {this.textBox1.Text}!";
+
+            MessageBox.Show(name);
         }
     }
 }
