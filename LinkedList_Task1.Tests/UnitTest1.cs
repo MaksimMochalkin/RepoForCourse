@@ -38,7 +38,7 @@ namespace LinkedList_Task1.Tests
 
             foreach (var item in list)
             {
-                var temp = item;
+                item.ShouldNotBeNull();
             }
 
         }

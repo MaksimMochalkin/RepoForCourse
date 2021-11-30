@@ -214,8 +214,17 @@
         {
             if(Current.Next != null)
             {
-                Current = Current.Next;
-                return true;
+                if (Current.Data.Equals(head.Data))
+                {
+                    head = Current.Next;
+                    return true;
+                }
+                else
+                {
+                    Current = Current.Next;
+                    head = head.Next;
+                    return true;
+                }
             }
 
             return false;
