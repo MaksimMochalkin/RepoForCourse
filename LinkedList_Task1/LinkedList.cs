@@ -174,14 +174,6 @@
         public IEnumerator GetEnumerator()
         {
             return new LinkedLIstEnumerator<T>(Head);
-            //var current = Head;
-            //while(current != null)
-            //{
-            //    return current.Data;
-            //    current = current.Next;
-            //}
-
-            //return null;
         }
         private void Init(T data)
         {
