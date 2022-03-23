@@ -15,6 +15,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1", "Task1\Task1.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1Tests", "Task1Tests\Task1Tests.csproj", "{CC0F980B-E355-41F9-91BF-DD93EC067FBF}"
 EndProject
+
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinkedList", "LinkedList", "{D1F33031-B1CC-4E86-8C17-6247F075440F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList_Task1", "LinkedList_Task1\LinkedList_Task1.csproj", "{E5D98A2C-03E1-435F-B60B-946A729A90FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList_Task1.Tests", "LinkedList_Task1.Tests\LinkedList_Task1.Tests.csproj", "{7A7672AF-8DE2-463F-8C15-C606D64FC659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList_Task2", "LinkedList_Task2\LinkedList_Task2.csproj", "{1E6AB3EA-5EF4-44C7-ABA2-F69B4B967734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList_Task2.Tests", "LinkedList_Task2.Tests\LinkedList_Task2.Tests.csproj", "{9F975F37-F846-4609-80FA-9D7B26F6CCE9}"
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflection", "Reflection", "{77010BD2-06D6-4D01-9732-FDB64A8C1B98}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{7A2FA21E-0D7D-48E1-B4CD-012ADB5B61B1}"
