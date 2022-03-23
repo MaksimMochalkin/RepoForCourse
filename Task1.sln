@@ -29,7 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflection", "Reflection", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{7A2FA21E-0D7D-48E1-B4CD-012ADB5B61B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection_Task1", "Reflection_Task1\Reflection_Task1.csproj", "{1EEEFDA2-2155-44DA-9F8C-7D1CE41528F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection_Task1", "Reflection_Task1\Reflection_Task1.csproj", "{1EEEFDA2-2155-44DA-9F8C-7D1CE41528F1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1.Tests", "Task1.Tests", "{91152D5C-DF81-4A91-A933-964AC0777B7F}"
 EndProject
@@ -37,11 +37,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{B96F7378
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2.Tests", "Task2.Tests", "{7F84DDA4-742E-4CE7-B4FE-A38CDE8F0954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection_Task1.Tests", "Reflection_Task1.Tests\Reflection_Task1.Tests.csproj", "{2B3BD48C-F0FE-45BC-A928-ED6D9037A990}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection_Task1.Tests", "Reflection_Task1.Tests\Reflection_Task1.Tests.csproj", "{2B3BD48C-F0FE-45BC-A928-ED6D9037A990}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection_Task2", "Reflection_Task2\Reflection_Task2.csproj", "{B3A60B8A-737C-4DBA-9B06-8A92A509B77B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection_Task2", "Reflection_Task2\Reflection_Task2.csproj", "{B3A60B8A-737C-4DBA-9B06-8A92A509B77B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection_Task2.Tests", "Reflection_Task2.Tests\Reflection_Task2.Tests.csproj", "{7E8F50C2-27BF-42DB-9FBA-A7995BD06CCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection_Task2.Tests", "Reflection_Task2.Tests\Reflection_Task2.Tests.csproj", "{7E8F50C2-27BF-42DB-9FBA-A7995BD06CCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTesting", "UnitTesting", "{AE207FF4-BAA6-4895-B6F3-CF6BE0DA55EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata_realization", "Kata_realization\Kata_realization.csproj", "{71A8A8D5-7B58-4ED1-B89E-CDE9E69BC777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata_realization.Tests", "Kata_realization.Tests\Kata_realization.Tests.csproj", "{DDD5640E-DA70-4B55-9D5A-99531ADBBFCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +91,14 @@ Global
 		{7E8F50C2-27BF-42DB-9FBA-A7995BD06CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E8F50C2-27BF-42DB-9FBA-A7995BD06CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E8F50C2-27BF-42DB-9FBA-A7995BD06CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A8A8D5-7B58-4ED1-B89E-CDE9E69BC777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A8A8D5-7B58-4ED1-B89E-CDE9E69BC777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A8A8D5-7B58-4ED1-B89E-CDE9E69BC777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A8A8D5-7B58-4ED1-B89E-CDE9E69BC777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD5640E-DA70-4B55-9D5A-99531ADBBFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD5640E-DA70-4B55-9D5A-99531ADBBFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD5640E-DA70-4B55-9D5A-99531ADBBFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD5640E-DA70-4B55-9D5A-99531ADBBFCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +114,8 @@ Global
 		{2B3BD48C-F0FE-45BC-A928-ED6D9037A990} = {91152D5C-DF81-4A91-A933-964AC0777B7F}
 		{B3A60B8A-737C-4DBA-9B06-8A92A509B77B} = {B96F7378-80DB-44C7-A254-909AE42F340D}
 		{7E8F50C2-27BF-42DB-9FBA-A7995BD06CCE} = {7F84DDA4-742E-4CE7-B4FE-A38CDE8F0954}
+		{71A8A8D5-7B58-4ED1-B89E-CDE9E69BC777} = {AE207FF4-BAA6-4895-B6F3-CF6BE0DA55EE}
+		{DDD5640E-DA70-4B55-9D5A-99531ADBBFCE} = {AE207FF4-BAA6-4895-B6F3-CF6BE0DA55EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39B71F6B-812F-42CA-9A03-F8A975A60C4A}
